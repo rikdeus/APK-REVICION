@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Técnico Pro",
+    "slug": "tecnico-pro",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.rikdeus.tecnicopro",
+      "versionCode": 1,
+      "permissions": ["CAMERA", "READ_MEDIA_IMAGES"]
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La app necesita acceso a tus fotos para adjuntar evidencias.",
+          "cameraPermission": "La app necesita la cámara para fotografiar equipos y comprobantes."
+        }
+      ]
+    ]
+  }
+}
